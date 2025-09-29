@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homesc1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".RegisterActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradientbg">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="2000dp"
+            android:layout_height="125dp"
+            android:contentDescription="Blue bar"
+            android:src="@drawable/bluebox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="SCHOOLHUB"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView3"
+            android:layout_width="63dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="44dp"
+            android:src="@drawable/ssda"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/RoundedImageView"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="2000dp"
+            android:layout_height="85dp"
+            android:contentDescription="Blue bar"
+            android:src="@drawable/bluebox"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="clubs"
+            android:src="@drawable/baseline_dashboard_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:tint="#000000"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="events"
+            android:src="@drawable/baseline_event_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.647"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="8dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="Blue bar"
+            android:src="@drawable/pikpng_com_community_icon_png_707400"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.358"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:tint="#FFFFFF"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="followed"
+            android:src="@drawable/star_346"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView5"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="176dp"
+            android:src="@drawable/animeh"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/RoundedImageView"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="200dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="Anime Community"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="This is temporary\ninformation"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="298dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/btn_bg"
+            android:ems="10"
+            android:hint="Find communities..."
+            android:inputType="text"
+            android:paddingStart="10sp"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView20"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/studeh"
+            android:background="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:shapeAppearanceOverlay="@style/RoundedImageView"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="84dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="Study Community"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/imageView20"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="This is temporary\ninformation"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/imageView20"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView21"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/aret"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20"
+            app:shapeAppearanceOverlay="@style/RoundedImageView"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="84dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="Art Community"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/imageView21"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="This is temporary\ninformation"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/imageView21"
+            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginStart="4dp"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/drawer_layout"
+        tools:ignore="HardcodedText" />
+</androidx.drawerlayout.widget.DrawerLayout>
